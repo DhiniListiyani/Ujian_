@@ -1,0 +1,99 @@
+/* File: style.css */
+
+/* Style untuk sidebar */
+.sidebar {
+    position: fixed;
+    min-height: 100vh;
+    background-color: #5796d6;
+    color: white;
+}
+
+.sidebar .nav-link {
+    color: #c2c7d0;
+}
+
+.sidebar .nav-link.active {
+    background-color: #495057;
+    color: white;
+}
+
+/* Style untuk dashboard cards */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #ecf0f1;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    color: #2c3e50;
+}
+
+.add-btn {
+    padding: 10px 20px;
+    color: white;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #2980b9;
+    color: white;
+}
+
+.edit-btn, .delete-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: #f1c40f;
+    color: white;
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #f39c12;
+}
+
+.delete-btn:hover {
+    background-color: #c0392b;
+}
